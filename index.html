@@ -132,6 +132,297 @@
           </div>
         </div>
       </section>
+
+      <section class="tab">
+        <div class="container">
+          <h2 class="tab__title title">Tab section</h2>
+          <p class="tab__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quidem?</p>
+
+          <ul class="tab__list">
+            <li class="tab__item">
+              <button class="tab__btn tab__btn_active" type="button" aria-label="First image" tata-tab="tab_1">
+                Tab button 1
+              </button>
+            </li>
+
+            <li class="tab__item">
+              <button class="tab__btn" type="button" aria-label="Second image" tata-tab="tab_2">Tab button 2</button>
+            </li>
+
+            <li class="tab__item">
+              <button class="tab__btn" type="button" aria-label="Third image" tata-tab="tab_3">Tab button 3</button>
+            </li>
+          </ul>
+
+          <ul class="tab__content">
+            <li class="tab__content-item active" id="tab_1">
+              <picture class="tab__picture">
+                <source
+                  srcset="
+                    image/tabimage_1/tabimage-1-mobile.avif,
+                    image/tabimage_1/tabimage-1-mobile@2x.avif 2x,
+                    image/tabimage_1/tabimage-1-mobile@4x.avif 4x
+                  "
+                  media="(max-width: 480px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_1/tabimage-1-tablet.avif,
+                    image/tabimage_1/tabimage-1-tablet@2x.avif 2x,
+                    image/tabimage_1/tabimage-1-tablet@4x.avif 4x
+                  "
+                  media="(max-width: 660px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_1/tabimage-1-laptop.avif,
+                    image/tabimage_1/tabimage-1-laptop@2x.avif 2x,
+                    image/tabimage_1/tabimage-1-laptop@4x.avif 4x
+                  "
+                  media="(max-width: 860px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_1/tabimage-1-decktop.avif,
+                    image/tabimage_1/tabimage-1-decktop@2x.avif 2x,
+                    image/tabimage_1/tabimage-1-decktop@4x.avif 4x
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_1/tabimage-1-mobile.webp,
+                    image/tabimage_1/tabimage-1-mobile@2x.webp 2x,
+                    image/tabimage_1/tabimage-1-mobile@4x.webp 4x
+                  "
+                  media="(max-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_1/tabimage-1-tablet.webp,
+                    image/tabimage_1/tabimage-1-tablet@2x.webp 2x,
+                    image/tabimage_1/tabimage-1-tablet@4x.webp 4x
+                  "
+                  media="(max-width: 660px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_1/tabimage-1-laptop.webp,
+                    image/tabimage_1/tabimage-1-laptop@2x.webp 2x,
+                    image/tabimage_1/tabimage-1-laptop@4x.webp 4x
+                  "
+                  media="(max-width: 860px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_1/tabimage-1-decktop.webp,
+                    image/tabimage_1/tabimage-1-decktop@2x.webp 2x,
+                    image/tabimage_1/tabimage-1-decktop@4x.webp 4x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  class="tab__image"
+                  src="image/tabimage_1/tabimage-1-decktop.jpeg"
+                  srcset="image/tabimage_1/tabimage-1-decktop@2x.jpg 2x, image/tabimage-1-decktop@4x.jpeg 4x"
+                  width="940"
+                  height="627"
+                  alt="Mountains"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+
+            <li class="tab__content-item active" id="tab_2">
+              <picture class="tab__picture">
+                <source
+                  srcset="
+                    image/tabimage_2/tabimage-2-mobile.avif,
+                    image/tabimage_2/tabimage-2-mobile@2x.avif 2x,
+                    image/tabimage_2/tabimage-2-mobile@4x.avif 4x
+                  "
+                  media="(max-width: 480px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_2/tabimage-2-tablet.avif,
+                    image/tabimage_2/tabimage-2-tablet@2x.avif 2x,
+                    image/tabimage_2/tabimage-2-tablet@4x.avif 4x
+                  "
+                  media="(max-width: 660px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_2/tabimage-2-laptop.avif,
+                    image/tabimage_2/tabimage-2-laptop@2x.avif 2x,
+                    image/tabimage_2/tabimage-2-laptop@4x.avif 4x
+                  "
+                  media="(max-width: 860px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_2/tabimage-2-decktop.avif,
+                    image/tabimage_2/tabimage-2-decktop@2x.avif 2x,
+                    image/tabimage_2/tabimage-2-decktop@4x.avif 4x
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_2/tabimage-2-mobile.webp,
+                    image/tabimage_2/tabimage-2-mobile@2x.webp 2x,
+                    image/tabimage_2/tabimage-2-mobile@4x.webp 4x
+                  "
+                  media="(max-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_2/tabimage-2-tablet.webp,
+                    image/tabimage_2/tabimage-2-tablet@2x.webp 2x,
+                    image/tabimage_2/tabimage-2-tablet@4x.webp 4x
+                  "
+                  media="(max-width: 660px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_2/tabimage-2-laptop.webp,
+                    image/tabimage_2/tabimage-2-laptop@2x.webp 2x,
+                    image/tabimage_2/tabimage-2-laptop@4x.webp 4x
+                  "
+                  media="(max-width: 860px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_2/tabimage-2-decktop.webp,
+                    image/tabimage_2/tabimage-2-decktop@2x.webp 2x,
+                    image/tabimage_2/tabimage-2-decktop@4x.webp 4x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  class="tab__image"
+                  src="image/tabimage_2/tabimage-2-decktop.jpeg"
+                  srcset="image/tabimage_2/tabimage-2-decktop@2x.jpg 2x, image/tabimage-2-decktop@4x.jpeg 4x"
+                  width="940"
+                  height="627"
+                  alt="Mountains"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+
+            <li class="tab__content-item active" id="tab_2">
+              <picture class="tab__picture">
+                <source
+                  srcset="
+                    image/tabimage_3/tabimage-3-mobile.avif,
+                    image/tabimage_3/tabimage-3-mobile@2x.avif 2x,
+                    image/tabimage_3/tabimage-3-mobile@4x.avif 4x
+                  "
+                  media="(max-width: 480px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_3/tabimage-3-tablet.avif,
+                    image/tabimage_3/tabimage-3-tablet@2x.avif 2x,
+                    image/tabimage_3/tabimage-3-tablet@4x.avif 4x
+                  "
+                  media="(max-width: 660px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_3/tabimage-3-laptop.avif,
+                    image/tabimage_3/tabimage-3-laptop@2x.avif 2x,
+                    image/tabimage_3/tabimage-3-laptop@4x.avif 4x
+                  "
+                  media="(max-width: 860px)"
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_3/tabimage-3-decktop.avif,
+                    image/tabimage_3/tabimage-3-decktop@2x.avif 2x,
+                    image/tabimage_3/tabimage-3-decktop@4x.avif 4x
+                  "
+                  type="image/avif"
+                />
+                <source
+                  srcset="
+                    image/tabimage_3/tabimage-3-mobile.webp,
+                    image/tabimage_3/tabimage-3-mobile@2x.webp 2x,
+                    image/tabimage_3/tabimage-3-mobile@4x.webp 4x
+                  "
+                  media="(max-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_3/tabimage-3-tablet.webp,
+                    image/tabimage_3/tabimage-3-tablet@2x.webp 2x,
+                    image/tabimage_3/tabimage-3-tablet@4x.webp 4x
+                  "
+                  media="(max-width: 660px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_3/tabimage-3-laptop.webp,
+                    image/tabimage_3/tabimage-3-laptop@2x.webp 2x,
+                    image/tabimage_3/tabimage-3-laptop@4x.webp 4x
+                  "
+                  media="(max-width: 860px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    image/tabimage_3/tabimage-3-decktop.webp,
+                    image/tabimage_3/tabimage-3-decktop@2x.webp 2x,
+                    image/tabimage_3/tabimage-3-decktop@4x.webp 4x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  class="tab__image"
+                  src="image/tabimage_3/tabimage-3-decktop.jpeg"
+                  srcset="image/tabimage_3/tabimage-3-decktop@2x.jpg 2x, image/tabimage-3-decktop@4x.jpeg 4x"
+                  width="940"
+                  height="627"
+                  alt="Mountains"
+                  loading="lazy"
+                />
+              </picture>
+            </li>
+          </ul>
+
+          <h3 class="tab__subtitle">Some title here</h3>
+
+          <p class="tab__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugiat, blanditiis error doloremque modi
+            incidunt!
+          </p>
+          <p class="tab__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corrupti enim quae neque cum iste sint.
+          </p>
+          <p class="tab__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis consectetur porro quam
+            voluptatibus expedita, totam tempore.
+          </p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
