@@ -73,6 +73,11 @@ fieldset {
   margin-bottom: 17px;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .container {
   --container-width: 940px;
   --container-padding: 30px;
